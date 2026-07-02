@@ -1,10 +1,10 @@
-# -*- coding: utf-8 -*-
+#-*- coding: utf-8 -*-
 """
 Created on Wed Jul  1 19:16:43 2026
 
 @author: pavan
 """
-
+#h1)
 size=8
 p_list=[]
 
@@ -45,7 +45,7 @@ update('swati')
 is_full()
 
 
-#2
+#h2)
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jul  1 19:27:19 2026
@@ -114,7 +114,7 @@ deq()
 dis()
 
 
-#3
+#h3)
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jul  1 19:28:58 2026
