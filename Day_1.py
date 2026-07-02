@@ -2,7 +2,7 @@
 """
 Created on Wed Jul  1 19:16:43 2026
 
-@author: windows 10
+@author: pavan
 """
 
 size=8
@@ -36,18 +36,21 @@ def is_full():
     else:
         
         print("space is available")
-push('laptop')
-push("phone")
+push('pavan')
+push("harpal")
+push("mahi")
+push("aafridi")
 peek()
-update('table')
+update('swati')
 is_full()
 
 
-#2# -*- coding: utf-8 -*-
+#2
+# -*- coding: utf-8 -*-
 """
 Created on Wed Jul  1 19:27:19 2026
 
-@author: windows 10
+@author: pavan
 """
 
 size = 5
@@ -100,15 +103,13 @@ def dis():
 
 
 
-
-
-
-
-
-enq("Car")
-enq("Bus")
-enq("Truck")
+enq("mansi")
+enq("rahul")
+enq("khushi")
+enq("harpal")
+enq("takshil")
 dis()
+deq()
 deq()
 dis()
 
@@ -118,12 +119,12 @@ dis()
 """
 Created on Wed Jul  1 19:28:58 2026
 
-@author: windows 10
+@author: pavan
 """
 
 b = []
 f = []
-cur = "Home"
+cur = "House"
 
 def visit(place):
     global cur
@@ -150,10 +151,9 @@ def forward():
         cur = f.pop()
         print("cur Location:", cur)
 
-visit("Mall")
-visit("Hospital")
-visit("Airport")
-
+visit("theater")
+visit("school")
+visit("collage")
 back()
 back()
 forward()
